@@ -14,7 +14,7 @@ function product(a, b) {
 }
 product(10, 50)
 
-document.getElementById('calculate').oneclick = function () {
+document.getElementById('calculate').onclick = function () {
     let num1 = document.getElementById('num1').value
     let num2 = document.getElementById('num2').value
 
