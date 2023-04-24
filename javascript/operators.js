@@ -56,3 +56,12 @@ console.log(sentence)
     */
  let quotient = num2 / num1;
  console.log(quotient);
+
+
+
+
+
+
+
+
+

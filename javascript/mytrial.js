@@ -18,3 +18,17 @@ function addition() {
 }
 
 addition();
+
+/*FUNCTION TRIAL 2 */
+// i just taught my self the function below
+
+function goodmorning() {
+  console.log("Good Morning", myName);
+}
+var myName = "Jimmy";
+
+goodmorning();
+
+/*FUNCTION TRIAL 3 */
+// i just taught my self the function below
+
