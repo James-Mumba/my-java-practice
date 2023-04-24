@@ -33,7 +33,6 @@ document.getElementById("income").onclick = function () {
   }
 };
 
-
 /*
 if promocode = KARIBU ; then discount = 25%
 applicable to purchases of 20,000+
@@ -42,3 +41,27 @@ applicable to purchases of 20,000+
 promocode = Nairobi then discount = 15%
 applicable 10,000+
 */
+
+document.getElementById("generate").onclick = function () {
+  let promocode = document.getElementById("promocode").value;
+  let amount = document.getElementById("amount").value;
+  let promocodek = "KARIBU";
+  let promocodeN = "NAIROBI";
+
+  if (promocode == promocodek) {
+    if (amount >= 20000) {
+      calcDiscount = (25 / 100) * amount;
+      document.getElementById("discount").innerText = calcDiscount;
+    } else if (amount >= 50000) {
+      calcDiscount = (27 / 100) * amount;
+    } else if (amount >= 100000) {
+      calcDiscount = (27 / 100) * amount;
+    }
+  }
+  if (promocode == promocodeN) {
+    if (amount >= 10000) {
+      calcDiscount = (15 / 100) * amount;
+      document.getElementById("discount").innerText = calcDiscount;
+    }
+  }
+};
