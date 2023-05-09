@@ -65,3 +65,18 @@ document.getElementById("generate").onclick = function () {
     }
   }
 };
+
+/* 
+using only two variables, salary & expense, create a budget calculator
+that displays on the HTML window by the click of a button:
+1. Heading
+2. Takes salary as input
+3. Displays in two seperate columns; the Expense and Remaining Salary after expense
+*/
+document.getElementById("calculate").onclick = function () {
+  let salary = document.getElementById("salary").value;
+  let expense = document.getElementById("expense").value;
+  let salarybalance = salary - expense;
+  document.getElementById("expense").innerText = expense;
+
+};

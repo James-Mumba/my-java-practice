@@ -1,0 +1,15 @@
+* {
+  height: 45vh;
+  width: 100vw;
+  /* background-color: bisque; */
+}
+input {
+  height: auto;
+  width: auto;
+  display: flex;
+}
+button {
+  height: 25px;
+  width: 80px;
+  margin-top: 10px;
+}
