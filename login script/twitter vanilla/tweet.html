@@ -4,21 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reg</title>
+    <link rel="stylesheet" href="tweet.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <title>tweet page</title>
   </head>
   <body>
-    <label for="username">Username</label>
-    <input type="username" id="user" placeholder="john Doe" /><br />
-    <label for="Email">Email</label>
-    <input type="email" id="Email" placeholder="johndoe@gmail.com" /> <br />
-    <label for="Password">Password</label>
-    <input type="password" id="Password" placeholder="******" /> <br />
-    <button id="register">Register</button>
+    <!--  -->
+    <h2 id="welcome2"></h2>
+    <p id="mytweet"></p>
+    <label for="comment"> comment</label>
+    <input type="text" id="comment" />
+    <button id="click">comment</button>
+
+    <div id="mojojojo"></div>
+    <!--  -->
   </body>
   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
-  <script src="config.js"></script>
-  <script src="reg.js"></script>
+  <script src="./js/config.js"></script>
+  <script src="./js/tweet.js"></script>
 </html>

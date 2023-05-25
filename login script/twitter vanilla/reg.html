@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>landing page</title>
+    <title>Reg</title>
   </head>
   <body>
-    <h1 id="welcome"></h1>
-    <input type="text" id="tweet" placeholder="your thoughts here" />
-    <button id="send">tweet</button>
-    <div class="tweet container" id="container"></div>
-    <button id="log">Log out</button>
+    <label for="username">Username</label>
+    <input type="username" id="user" placeholder="john Doe" /><br />
+    <label for="Email">Email</label>
+    <input type="email" id="Email" placeholder="johndoe@gmail.com" /> <br />
+    <label for="Password">Password</label>
+    <input type="password" id="Password" placeholder="******" /> <br />
+    <button id="register">Register</button>
   </body>
   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
-  <script src="config.js"></script>
-  <script src="landing.js"></script>
+  <script src="./js/config.js"></script>
+  <script src="./js/reg.js"></script>
 </html>

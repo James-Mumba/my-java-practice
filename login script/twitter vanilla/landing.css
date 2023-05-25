@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.tweet {
+  background-color: aqua;
+  margin-bottom: 5px;
+  height: 100px;
+  width: 100px;
+}
